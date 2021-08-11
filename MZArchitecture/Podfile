@@ -1,0 +1,80 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+workspace 'mz.xcworkspace'
+
+platform :ios, '14.0'
+
+use_frameworks!
+
+# ignore all warnings from all dependencies
+inhibit_all_warnings!
+
+def dev_pods
+  
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  
+end
+
+def core_pods
+  
+  pod 'KVOController'
+  pod 'MGJRouter'
+  pod 'CTMediator'
+  
+end
+
+def thirdparty_pods
+  
+  pod 'YYModel'
+  pod 'MQTTClient'
+  
+end
+
+def ui_pods
+  
+end
+
+def internal_pods
+  pod 'MZPublibs', :path => './Frameworks/MZPublibs', :inhibit_warnings => false
+end
+
+def test_pods
+  
+end
+
+target 'app_A' do
+  
+  project 'app_A/app_A.xcodeproj'
+  core_pods
+  internal_pods
+  thirdparty_pods
+  
+end
+
+target 'app_B' do
+  
+  project 'app_B/app_B.xcodeproj'
+  
+  dev_pods
+  thirdparty_pods
+  internal_pods
+  
+end
+
+target 'MZBaseKit' do
+  project 'MZBaseKit/MZBaseKit.xcodeproj'
+  internal_pods
+  thirdparty_pods
+ 
+end
+
+target 'MZNetworkKit' do
+  project 'MZNetworkKit/MZNetworkKit.project'
+  internal_pods
+  thirdparty_pods
+ 
+end
+
+

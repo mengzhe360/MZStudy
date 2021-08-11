@@ -1,0 +1,18 @@
+//
+//  App_B_PrefixHeader.pch
+//  app_B
+//
+//  Created by 孟哲 on 2021/8/8.
+//  Copyright © 2021 com.mz. All rights reserved.
+//
+
+#ifndef App_B_PrefixHeader_pch
+#define App_B_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <MZPublibs.h>
+#import <MZBaseKit/MZBaseKitTest.h>
+
+#endif /* App_B_PrefixHeader_pch */
