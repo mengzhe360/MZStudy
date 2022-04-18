@@ -28,7 +28,6 @@
 		E7BFDC6B26BFF07C0083B18A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7BFDC7826BFF0B50083B18A /* MZNetworkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZNetworkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7BFDC7A26BFF0B50083B18A /* MZNetworkKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZNetworkKit.h; sourceTree = "<group>"; };
-		E7BFDC7B26BFF0B50083B18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				E7BFDC5826BFF0790083B18A /* MZNetworkKit */,
-				E7BFDC7926BFF0B50083B18A /* MZNetworkKit */,
 				E7BFDC5726BFF0790083B18A /* Products */,
 				84408B34171012F4ECED6EDD /* Pods */,
 				EE6F52087A07B5A344B01037 /* Frameworks */,
@@ -86,15 +84,7 @@
 				E7BFDC6726BFF07C0083B18A /* LaunchScreen.storyboard */,
 				E7BFDC6A26BFF07C0083B18A /* Info.plist */,
 				E7BFDC6B26BFF07C0083B18A /* main.m */,
-			);
-			path = MZNetworkKit;
-			sourceTree = "<group>";
-		};
-		E7BFDC7926BFF0B50083B18A /* MZNetworkKit */ = {
-			isa = PBXGroup;
-			children = (
 				E7BFDC7A26BFF0B50083B18A /* MZNetworkKit.h */,
-				E7BFDC7B26BFF0B50083B18A /* Info.plist */,
 			);
 			path = MZNetworkKit;
 			sourceTree = "<group>";
