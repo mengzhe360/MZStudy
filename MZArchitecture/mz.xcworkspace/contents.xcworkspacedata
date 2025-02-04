@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:LVPaymentModule/LVPaymentModule.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MZNetworkKit/MZNetworkKit.xcodeproj">
    </FileRef>
    <FileRef

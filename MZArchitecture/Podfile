@@ -76,4 +76,14 @@ target 'MZNetworkKit' do
  
 end
 
+target ‘LVPaymentModule' do
+  project 'LVPaymentModule/LVPaymentModule.xcodeproj'
+#  internal_pods
+#  thirdparty_pods
+
+end
+
+
+
+
 
